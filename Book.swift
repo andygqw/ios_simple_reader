@@ -18,18 +18,20 @@ struct Book {
 
 extension Book{
    
+   //replace book file over here.
+   //book sources must be .txt for now
    static let sampleData: [Book] = [
-      Book(title: "恶魔大导演", author: "娱乐圈老司机", cover: "恶魔大导演"),
-      Book(title: "诡秘之主", author: "爱潜水的乌贼", cover: "诡秘之主"),
-      Book(title: "测试0", author: "unknown", cover: ""),
-      Book(title: "测试1", author: "unknown", cover: ""),
-      Book(title: "测试2", author: "unknown", cover: ""),
-      Book(title: "测试3", author: "unknown", cover: ""),
-      Book(title: "测试4", author: "unknown", cover: ""),
-      Book(title: "测试5", author: "unknown", cover: ""),
-      Book(title: "测试6", author: "unknown", cover: ""),
-      Book(title: "测试7", author: "unknown", cover: ""),
-      Book(title: "测试8", author: "unknown", cover: "")
+      Book(title: "Harry Potter", author: "J.K. Rowling", cover: "hp1"),
+      Book(title: "blah", author: "blan", cover: "blah"),
+      Book(title: "test0", author: "unknown", cover: ""),
+      Book(title: "test1", author: "unknown", cover: ""),
+      Book(title: "test2", author: "unknown", cover: ""),
+      Book(title: "test3", author: "unknown", cover: ""),
+      Book(title: "test4", author: "unknown", cover: ""),
+      Book(title: "test5", author: "unknown", cover: ""),
+      Book(title: "test6", author: "unknown", cover: ""),
+      Book(title: "test7", author: "unknown", cover: ""),
+      Book(title: "test8", author: "unknown", cover: "")
    ]
    
 }
